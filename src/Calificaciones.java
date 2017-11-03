@@ -11,12 +11,21 @@ import javax.swing.JOptionPane;
 public class Calificaciones {
     public static void main(String[] args)
     {
-         float nota1, nota2, nota3;
-         nota1 = Float.parseFloat(JOptionPane.showInputDialog("ingrese nota"));
-         nota2 =   Float.parseFloat(JOptionPane.showInputDialog("ingrese nota"));
-         nota3 =  Float.parseFloat(JOptionPane.showInputDialog("ingrese nota"));
-         
+         float nota1, nota2, nota3, promedio = 0;
+         nota1 = Float.parseFloat(JOptionPane.showInputDialog("ingrese nota 1"));
+         nota2 =   Float.parseFloat(JOptionPane.showInputDialog("ingrese nota 2"));
+         nota3 =  Float.parseFloat(JOptionPane.showInputDialog("ingrese nota 3"));
+         promedio = Float.parseFloat(JOptionPane.showInputDialog("ingrese promedio"));
+         if (promedio > 4)
+         {
+        JOptionPane.showMessageDialog(null, "Aprobado"); 
     }
+         else
+         {
+          JOptionPane.showMessageDialog(null,"Reprobado");   
+         } 
 }
 
-
+    
+        
+    }
