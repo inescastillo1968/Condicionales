@@ -15,9 +15,38 @@ public class Calificacion2
  {
      float nota;
       nota = Float.parseFloat(JOptionPane.showInputDialog("ingrese nota"));
-      if (nota = 7)
+      if (nota == 7)
       {
           JOptionPane.showMessageDialog(null, "Notable");
       }
+      else
+      {
+      JOptionPane.showMessageDialog(null, "");
+     }
+      if (nota==6) 
+      {
+         JOptionPane.showMessageDialog(null, "Bien");  
+      }
+      else
+      {
+       JOptionPane.showMessageDialog(null, "");   
+      }
+      if (nota>=4&& nota<5)
+      {
+      JOptionPane.showMessageDialog(null, "Suficiente"); 
+ }
+      else
+      { 
+        JOptionPane.showMessageDialog(null, "");      
+      }
+      if (nota<4)
+      {
+      JOptionPane.showMessageDialog(null, "Insuficiente");     
+      }
+      else
+      {
  }
 }
+  
+      
+  }
